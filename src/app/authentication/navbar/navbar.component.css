@@ -1,0 +1,20 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+img {
+    width: 215px;
+    padding-top: 2px;
+}
+
+a {
+    line-height: 38px;
+    color: #333 !important;
+    margin: 0 20px;
+    font-family: Abel, sans-serif !important;
+}
+
+mat-toolbar {
+    height: 93px;
+    background-color: #f8f9fa !important;
+}

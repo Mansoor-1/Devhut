@@ -1,0 +1,9 @@
+<mat-toolbar>
+    <img class="img" src="/assets/images/navbar-logo.png">
+    <span class="example-spacer"></span>
+    <a href="#">API Guides</a>
+    <a href="#">Contact Us</a>
+    <a href="#">About</a>
+    <a *ngIf="!show" [routerLink]="['/auth/login']">Sign In</a>
+    <a *ngIf="show" [routerLink]="['/auth/register']">Sign Up</a>
+</mat-toolbar>

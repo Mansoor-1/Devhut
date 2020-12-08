@@ -1,0 +1,40 @@
+.container-color {
+    color: #fff;
+    background: #213e58;
+    min-height: 100vh;
+}
+
+.collab {
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #fff;
+    padding-top: 25px;
+    margin: 20px auto;
+}
+
+.pad {
+    font-family: ABeeZee, sans-serif;
+    font-size: 50px;
+    color: #fff;
+    padding: 160px 0 0 80px;
+}
+
+.text-para {
+    font-size: 29px;
+    line-height: 50px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+
+/* .avatar {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+} */

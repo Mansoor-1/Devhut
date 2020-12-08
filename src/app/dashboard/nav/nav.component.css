@@ -1,0 +1,173 @@
+     img {
+         vertical-align: middle;
+         border-style: none;
+         height: 57px;
+         position: relative;
+         top: 38px;
+         left: 11px;
+     }
+     
+     .btn {
+         display: block;
+         background: #213e58;
+         border-radius: 12px;
+         color: #fff;
+         margin: 5px;
+         padding: 8px
+         /* position: relative;
+         bottom: -13px; */
+     }
+     
+     input[type="search"] {
+         width: 96%;
+         height: 48px;
+         background: #f2f2f2;
+         border-radius: 12px;
+         line-height: 23px;
+         color: #bdbdbd;
+         outline: none;
+         border: none;
+         padding-left: 30px;
+         margin-top: 46px;
+     }
+     
+     .set {
+         max-width: 6%;
+         height: auto;
+         position: relative;
+         left: -116px;
+     }
+     
+     .bell {
+         background-repeat: no-repeat;
+         display: inline-block;
+         fill: currentColor;
+         width: 24px;
+         position: relative;
+         top: 48px;
+         left: -96px;
+     }
+     
+     .img-round {
+         max-width: 16%;
+         border-radius: 50%;
+         border: 1px solid #000;
+         left: -79px;
+     }
+     
+     .icon {
+         /* position: relative;
+         left: 120px;
+         top: -27px; */
+         margin-left: 80px;
+         margin-top: -105px;
+         padding: 56px;
+     }
+     
+     .mat-slide-toggle {
+         flex-shrink: 0;
+         border-radius: 8px;
+         position: relative;
+         height: 30px;
+         top: 44px;
+         right: 134px;
+         background: none!important;
+         border: 0px solid!important;
+     }
+     
+     .new-btn {
+         border: 1px solid #828282;
+         border-radius: 20px;
+         width: 110px;
+         height: 50px;
+         background: none;
+         outline: none;
+         font-family: Abel;
+         margin-top: 47px;
+         margin-left: 22px;
+     }
+     
+     .mat-icon-button {
+         padding: 0;
+         min-width: 0;
+         flex-shrink: 0;
+         line-height: 40px;
+         top: -3px;
+         left: 12px;
+     }
+     
+     .links {
+         position: relative;
+         top: -10px;
+         left: 45px;
+     }
+     
+     .project {
+         position: relative;
+         top: 2px;
+         left: 12px;
+     }
+     
+     .flag {
+         position: relative;
+         top: 14px;
+         left: 11px;
+     }
+     
+     .share {
+         position: relative;
+         top: 25px;
+         left: 10px;
+     }
+     
+     .team {
+         position: relative;
+         top: 40px;
+         left: 1px;
+     }
+     
+     a {
+         color: #111113;
+         text-decoration: none;
+         background-color: transparent;
+     }
+     
+     .list-img {
+         position: relative;
+         top: -2px;
+         height: 33px;
+         left: -8px;
+     }
+     
+     .fl {
+         position: relative;
+         top: 12px;
+         height: 33px;
+         left: -11px;
+     }
+     
+     .sh {
+         position: relative;
+         top: 22px;
+         height: 33px;
+         left: -12px;
+     }
+     
+     .tm {
+         position: relative;
+         top: 36px;
+         height: 33px;
+         left: -15px;
+     }
+     .mat-select-arrow-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .mat-select-arrow {
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid;
+        margin: 0 4px;
+    }

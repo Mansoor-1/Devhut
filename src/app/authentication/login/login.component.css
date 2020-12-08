@@ -1,0 +1,85 @@
+.pad {
+    background: white;
+    border: 62px solid #00cca5;
+    border-radius: 37px;
+    margin: 0 auto;
+    padding: 4rem;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    max-height: 616px;
+}
+
+.form-group {
+    color: black;
+    position: relative;
+    right: -19px;
+    height: 74px;
+    width: 341px;
+    top: -100px;
+}
+
+.google-btn {
+    position: absolute;
+    left: 252px;
+    margin-top: -92px;
+    height: 72px;
+}
+
+.box {
+    background: #f2f2f2;
+    overflow: visible;
+    border: 2px solid #bdbdbd;
+    border-radius: 16px;
+    box-sizing: border-box;
+    width: 134%;
+    height: 45px;
+    position: relative;
+    left: -62px;
+}
+
+.sign-in-btn {
+    padding: 10px;
+    width: 83%;
+    line-height: 33px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    opacity: 6.6;
+    background: none;
+    position: relative;
+    left: 35px;
+    border-radius: 10px;
+    top: -92px;
+}
+
+.sign-in-btn:hover {
+    background-color: #213e58;
+}
+
+.line-bar {
+    background-color: #213e58;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 106%;
+    margin-top: -36px;
+    text-align: center;
+    font-size: 16px;
+    top: -94px;
+}
+
+.img {
+    vertical-align: middle;
+    border-style: none;
+    border: 0px solid #ddd;
+    width: 129px;
+    height: 121px;
+    position: relative;
+    left: 122px;
+    top: -122px;
+}
+
+.errors {
+    color: #d40a0a;
+}

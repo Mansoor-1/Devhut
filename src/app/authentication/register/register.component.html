@@ -1,0 +1,44 @@
+<div class="pad">
+    <img class="img" src=" ./assets/images/devhut-icon-v1.png ">
+    <form [formGroup]="regForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input formControlName="email" type="email" class="box">
+            <div class="errors" *ngIf="submitted && f.email.errors">
+                <div *ngIf="f.email.errors.required ">*Email required</div>
+                <div *ngIf="f.email.errors.email ">Email must be a valid email address</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="firstname">First name:</label>
+            <input formControlName="firstname" class="box">
+            <div class="errors" *ngIf="submitted && f.firstname.errors">
+                <div *ngIf="f.firstname.errors.required ">First name required</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="lastname">Last name:</label>
+            <input formControlName="lastname" class="box">
+            <div class="errors" *ngIf="submitted && f.lastname.errors">
+                <div *ngIf="f.lastname.errors.required">Last name required</div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input formControlName="password" type="password" class="box">
+            <div class="errors" *ngIf="submitted && f.password.errors">
+                <div *ngIf="f.password.errors.required">*Password required</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="confirmpassword">Confirm Password :</label>
+            <input formControlName="confirmpassword" type="password" class=" box ">
+            <div class="errors " *ngIf="submitted && f.confirmpassword.errors ">
+                <div *ngIf="f.confirmpassword.errors.required ">*Confirm Password required</div>
+            </div>
+        </div>
+
+        <button type="submit" class="sign-up-btn">Sign up</button>
+    </form>
+</div>
